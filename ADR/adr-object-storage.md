@@ -1,0 +1,37 @@
+# Document Storage Decision
+
+Date: 27.09.2024
+
+## Status
+
+Accepted
+
+## Context
+
+The application need to store draft resumes, submitted resumes and anonymyzed resumes of the candidates. Draft resumes are the resumes that have been uploaded in the application but yet to be submitted. Submitted resumes are the resumes that are succesfully uploaded and submitted. Anonymyzed resumes are the resumes stored by platform after making submitted resumes anonymous.
+
+Draft resumes might involve frequent updates as candidates may edit resume and reupload by following resume tips whereas Submitted and Anonymyed resume will not involve any update once uploaded. However, all the resumes should be easily and quickly retrievable without any data loss.
+
+### Alternatives
+
+1. **Amazon S3**: Amazon Simple Storage Service (Amazon S3) is an object storage service that offers high scalability, data availability, security, and performance.
+2. **Google Cloud Storage**: Google Cloud Storage is a Google cloud managed service for storing unstructured data. It supports storing any amount of data and retrieving it as often as we like.
+3. **Azure Storage**: The Azure Storage platform is Microsoft's cloud storage solution for modern data storage scenarios. Azure Storage offers highly available, massively scalable, durable, and secure storage for a variety of data objects in the cloud. Azure Storage data objects are accessible from anywhere in the world over HTTP or HTTPS via a REST API
+
+### PrOACT
+
+**Problem**: Choose the most appropriate storage solution satisfying the objectives and with mitigation strategies for trade offs, if any. 
+
+**Objectives**:
+
+- The storage solution should have high degree of availability, scalability, security, performance, durability and recoverability.
+- The storage solution should have archival and retrieval ability
+- The storage solution should incur less costs
+- The storage solution should support storing any format of document such as txt, pdf, png, .docx etc.
+- It is preferable for storage solution to integration with cloud AI solutions to generate tips and other AI use cases
+
+## Decision
+
+Blob storage is more suitable than File Storage because it is more suited for storing resume files as it supports unstructured data better with various storage options(Hot/Cold/Archive)
+
+The specific cloud provider solution we want to choose can depend on the cloud provider we will be going with as an overall cloud solution
