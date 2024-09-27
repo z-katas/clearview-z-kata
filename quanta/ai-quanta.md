@@ -1,6 +1,6 @@
 ## AI Quantum
 
-![Image](/assets/C2_AI_quanta.jpgg)
+![Image](/assets/C2_AI_quanta.jpg)
 
 ### Components and Responsibilities
 
