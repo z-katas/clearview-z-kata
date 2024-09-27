@@ -222,6 +222,6 @@ Areas to be addressed:
 
 <a name="resources"></a>
 
-## Resources
+## References
 
 - TBD
