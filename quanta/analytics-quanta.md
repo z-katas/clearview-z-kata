@@ -12,7 +12,7 @@
 
 ### Driving Architectural Characteristics
 
-![Image](/assets/analytics-arch-char-worksheet.png)
+![Image](/assets/analytics-arch-char-worksheet.jpg)
 
 #### Top 3
 
@@ -26,4 +26,4 @@
 
 Hybrid - Event Driven + Microservices
 
-![Image](/assets/analytics-arch-style-worksheet.png)
+![Image](/assets/analytics-arch-style-worksheet.jpg)

@@ -67,24 +67,26 @@ For effective monitoring and evaluation, the platform could track the following 
 
 - Choose Hybrid Approach.
   - Do real time metrics computation for few key events.
-  - - Eg : Job Posting is removed after selecting required candidates. This should trigger computation of Bias Reduction Metrics for that Job Posting.
+    - Eg : Job Posting is removed after selecting required candidates. This should trigger computation of Bias Reduction Metrics for that Job Posting.
   - Do batched computation for periodic reports generation.
   - Use side cars with read only data access to achieve this without impacting the core functionality.
 
 #### Metrics Selection
 
 - System should compute the two identified Bias Reduction Metrics for each Job Posting. The computation should happen once the job posting is removed after selecting required candidates.
-  -- Resume Selection Disparity Index (RSDI) could be computed by comparing ClearView data with benchmarks obtained from other solutions that do resume-job matching without any special attention for bias.
-  -- Applicant Diversity Ratio (ADR) should be monitored and the instances where the values crosses a threshold should trigger an alert.
+  - _Resume Selection Disparity Index (RSDI)_ could be computed by comparing ClearView data with benchmarks obtained from other solutions that do resume-job matching without any special attention for bias.
+  - _Applicant Diversity Ratio (ADR)_ should be monitored and the instances where the values crosses a threshold should trigger an alert.
 - System Performance Metrics and User Engagement Metrics could be computed on periodic intervals as part of a report.
 
 ## Tradeoffs - Mitigations
 
 **Tradeoffs**:
+
 - **Complexity**: The hybrid approach will introduce complexity in systems design and maintenance.
 - **Resource Utilization**: Balancing real-time and batch processing will require careful allocation of computing resources.
 
 **Mitigations**:
+
 - **Scalability**: Utilize cloud-based scalable infrastructure to dynamically allocate resources based on workload demands.
 - **Monitoring**: Implement robust monitoring tools to track the performance of both real-time and batch processes.
 - **Regular Reviews**: Periodically review and adjust the balance between real-time and batch processing based on the system's performance and user feedback.
