@@ -1,5 +1,5 @@
 # Green field projects - Build vs Buy 
-Date: 2024.09.24
+Date: 2024-09-24
 
 ## Status
 Accepted 

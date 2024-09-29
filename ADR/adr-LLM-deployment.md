@@ -1,6 +1,6 @@
 # LLM Deployment Model Decision
 
-Date: 25.09.2024
+Date: 25-09-2024
 
 ## Status
 
@@ -31,7 +31,7 @@ We need to select the appropriate deployment model for integrating Large Languag
 
 We will adopt a **Hybrid Deployment Model** . Sensitive candidate information, such as anonymized personal details, will be processed on-premises to maintain privacy, while less sensitive tasks (such as general NLP queries and resume writing assistance) will be handled in the cloud using managed LLM services. This approach ensures compliance with DEI and data security standards while leveraging the scalability and cost-efficiency of cloud-based LLMs.
 
-We can start with serverless architecture in the begining and evolve to a dedicated service which wraps around cloud LLM models
+We can start with serverless architecture in the begining and evolve to a dedicated service which wraps around LLM models
 
 ## Tradeoffs - Mitigations
 
