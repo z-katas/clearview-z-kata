@@ -39,7 +39,7 @@ TBD
     - [MVP](#mvp)
     - [Long Term](#long-term)
   - [Engineering Practices](#engineering-practices)
-  - [Resources](#resources)
+  - [References](#references)
 
 <a name="about-the-team"></a>
 
@@ -100,7 +100,7 @@ Since the proposal is a platform, the platform could be composed of several arch
 
 The team went through a design thinking exercise to understand the Candidate, Employer and platform admin  profiles, and empathize their needs and pain points. We also created AI system golden path The following golden paths were considered:
 
-[Design artifacts](TBD)
+[Design artifacts](https://www.figma.com/design/ConOZKBKzm6d2zft0nG8Ly/Final?node-id=0-1&t=hmu76myBUZbJCPay-1)
 
 <a name="candidate-flow"></a>
 
