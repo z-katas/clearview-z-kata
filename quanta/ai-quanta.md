@@ -2,13 +2,15 @@
 
 ![Image](/assets/C2_AI_quanta.jpg)
 
+![Image](/assets/deployment_ai_service.jpg)
+
 ### Components and Responsibilities
 
 - **Model Service**
     - Serve as a facade to interact with external LLM models, handling API calls and model interaction efficiently.
     - Manage request pre-processing and response post-processing, ensuring seamless integration of the external model with internal services.
 
-- **Model Workflow**
+- **Vector service(Workflow)**
     - Consume events from other services (like user actions or AI service requests) and trigger the creation of embeddings.
     -   Generate and store embeddings for various operations such as candidate matching, resume processing, and bias detection.
 
@@ -39,7 +41,8 @@
 ![Image](/assets/ai-arch-style-worksheet.png)
 
 - Event-driven for enabling workflow.
+- Microkernel for model service to interact with external LLM
 
 ### Tradeoffs - Mitigation Strategies
 
-- TBD
+- Please refer to the [ADR](/ADR/adr-ai-architecture-style.md)

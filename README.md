@@ -45,7 +45,7 @@ TBD
 
 ## About Team ArchZ
 
-We are a passionate group of software engineers & product managers from an innovation as a service organization [Zemoso](https://www.zemosolabs.com/).
+We are a passionate group of software engineers & designers from an innovation as a service organization [Zemoso](https://www.zemosolabs.com/).
 
 <a name="glossary"></a>
 
@@ -92,7 +92,7 @@ Since the proposal is a platform, the platform could be composed of several arch
 
 ![Image](/assets/context.png)
 
-[For better navigation on the content, use this miro frame](https://miro.com/app/board/uXjVOv-nlBo=/?moveToWidget=3458764528112682339&cot=14)
+[For better navigation on the content, use this miro frame](https://miro.com/app/board/uXjVLcJUnWk=/?moveToWidget=3458764600827974074&cot=14)
 
 <a name="user-experience"></a>
 
@@ -158,16 +158,16 @@ https://www.loom.com/share/X
 Quanta identification helps in defining different parts of the platform and the scope of architectural characteristics. We followed a mixture of event storming + actor-action approach to identify aggregates, components and quanta.
 
 [Click here for more details on the exercise.](/assets/aggregate-quanta.png)
-
+For better navigation click [here](https://miro.com/app/board/uXjVLcJUnWk=/?moveToWidget=3458764601506325349&cot=14)
 <a name="quanta"></a>
 
 ### Quanta
 
-- [AI](/quanta/ai-quanta.md.md)
-- [Invoice](./quanta/invoice-quanta.md.md)
-- [Notification](./quanta/notification-quanta.md.md)
-- [Integrations](./quanta/integration-quanta.md.md)
-- [User](./quanta/user-quanta.md.md)
+- [AI](/quanta/ai-quanta.md)
+- [Invoice](./quanta/invoice-quanta.md)
+- [Notification](./quanta/notification-quanta.md)
+- [Integrations](./quanta/integration-quanta.md)
+- [User](./quanta/user-quanta.md)
 - TBD
 
 <a name="other-services"></a>
@@ -192,9 +192,9 @@ Quanta identification helps in defining different parts of the platform and the 
 
 ### Physical View
 
-![Image](TBD)
+![Image](/assets/physical_arch.jpg)
 
-[For better navigation on the content, use this miro frame]
+[For better navigation on the content, use this [diagram](https://miro.com/app/board/uXjVLcJUnWk=/?moveToWidget=3458764601506371919&cot=14)]
 
 <a name="platform-roadmap"></a>
 

@@ -39,9 +39,11 @@
 
 - **Scalability** -As ClearView grows and attracts more users and employers, scalability is necessary to handle increased loads. The architecture should seamlessly accommodate a growing number of candidates and job postings, ensuring consistent performance regardless of demand fluctuations.
 
-- **Performance** - High performance is vital for user satisfaction. Users expect quick responses when accessing or updating their profiles, so the system must efficiently process requests to maintain engagement and encourage ongoing usage of the platform.
+- **Agility** - As this quanta deals with core functionalities and user persona, requirements are bound to change in the future. Having agility within the system is very important to accomodate any new feature requests.
 
 #### Other Driving Characteristics
+
+- **Performance** - High performance is vital for user satisfaction. Users expect quick responses when accessing or updating their profiles, so the system must efficiently process requests to maintain engagement and encourage ongoing usage of the platform.
 
 - **Testability** - Components within the User Profile Quantum must be designed for testability to ensure that functionalities are validated efficiently. This characteristic allows for the identification and resolution of issues early in the development cycle, ensuring the system operates as intended.
 
@@ -55,12 +57,9 @@
 
 ![Image](/assets/user-profile-arch-style-worksheet.png)
 
-- Micro services
+- Micro services + Events between other services
 
 ### Trade-offs - Mitigation strategies
 
-- TBD
+- Please refer to this [ADR](/ADR/adr-user-profile-architecture-style.md)
 
-### Call Flow diagrams
-
-- TBD

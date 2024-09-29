@@ -1,6 +1,6 @@
 # LLM Vector Search Algorithm Decision
 
-Date: 25.09.2024
+Date: 25-09-2024
 
 ## Status
 

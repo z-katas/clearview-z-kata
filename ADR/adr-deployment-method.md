@@ -1,5 +1,5 @@
 # Deployment methods - Containers Vs Serverless
-Date: 2024.09.25
+Date: 2024-09-25
 
 ## Status
 Proposed 

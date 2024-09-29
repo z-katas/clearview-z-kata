@@ -17,15 +17,18 @@ Some of the requirements for the Integration:
   - Ease of usability for Platform admin to manage External HR Systems.
   - Ease of usability for Employer admins to manage their HR System.
 
+- **Workflow Service**:
+  - Syncs the data between external HR systems and clearview platform periodically
+
 ### Driving Architectural Characteristics
 
 ![Image](/assets/integrations-arch-char-worksheet.png)
 
 #### Top 3
 
-- **Workflow**: Workflow is core to the  integration quantum to enable reliable ingestion into Clearview platform.
 - **Configurability**: Integration of the platform with a new HR System should not warrant a redeployment of the entire quantum.
 - **Feasibility**: The architecture should support quick integration with a new HR System.
+- **Workflow**: Workflow is core to the  integration quantum to enable reliable ingestion into Clearview platform.
 
 #### Other Driving Characteristics
 
@@ -34,9 +37,9 @@ Some of the requirements for the Integration:
 
 ### Architectural Style Preferred
 ![Image](/assets/integrations-arch-style-worksheet.png)
-- _Event-driven_ for enabling workflow in data ingestion into the spotlight platform and pushing data to NPO APIs
-- _Microkernal_ for introducing new NPO integrations without affecting the existing ones.
+- _Event-driven_ for enabling workflow in data ingestion into the clearview platform and pushing data to user profile APIs
+- _Microkernal_ for introducing new HR system integrations without affecting the existing ones.
 
 ### Tradeoffs - Mitigation Strategies
 
-- TBD
+- Please refer to the [ADR](/ADR/adr-integrations-architecture-style.md)

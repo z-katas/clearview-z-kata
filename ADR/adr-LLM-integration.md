@@ -1,6 +1,6 @@
-# LLM Architecture
+# LLM IntegrATION
 
-Date: 25.09.2024
+Date: 25-09-2024
 
 ## Status
 
@@ -29,7 +29,7 @@ We need to select the optimal architectural approach for utilizing a Large Langu
 
 ## Decision
 
-Our strategy includes using a Hybrid Model with Prompt Engineering for resume tips, and RAG for search-related use cases. Additionally, we may consider Fine-Tuning as a long-term approach to further enhance model performance. We will implement the RAG (Retrieval-Augmented Generation) approach, as it strikes the right balance between flexibility, domain-specific customization, and cost efficiency. This allows us to leverage external knowledge sources for specific queries while maintaining the core capabilities of the base LLM without the need for immediate fine-tuning or retraining
+Our strategy includes using a Hybrid Model with Prompt Engineering for resume tips and RAG for search-related use cases. Additionally, we may consider Fine-Tuning as a long-term approach to further enhance model performance. We will implement the RAG (Retrieval-Augmented Generation) approach wherever context augmentation is required, as it strikes the right balance between flexibility, domain-specific customization, and cost efficiency. This allows us to leverage external knowledge sources for specific queries while maintaining the core capabilities of the base LLM without the need for immediate fine-tuning or retraining
 
 ## Tradeoffs - Mitigations
 

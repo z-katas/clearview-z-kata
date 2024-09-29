@@ -1,6 +1,6 @@
 # LLM Embedding Model Decision
 
-Date: 25.09.2024
+Date: 25-09-2024
 
 ## Status
 
@@ -37,7 +37,7 @@ We need to decide on the approach for generating text embeddings using an LLM fo
 
 ## Decision
 
-Choosing from Hugging Face's leaderboard ensures that we start with a proven, high-performing foundation model, and fine-tuning will adapt it for the unique needs of the platform. This approach avoids the significant overhead of training a domain-specific model from scratch while still achieving the desired accuracy and performance improvements.
+Choosing from Hugging Face's leaderboard ensures that we start with a proven, high-performing embedding model, and fine-tuning will adapt it for the unique needs of the platform. This approach avoids the significant overhead of training a domain-specific model from scratch while still achieving the desired accuracy and performance improvements.
 
 ## Tradeoffs - Mitigations
 
