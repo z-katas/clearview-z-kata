@@ -41,6 +41,13 @@ TBD
 
 We are a passionate group of software engineers & designers from an innovation as a service organization [Zemoso](https://www.zemosolabs.com/).
 
+Team members
+- Saketh Kumar Kokonda
+- Avinash Marepalli
+- Srikanth Koraveni
+- Prasad G
+- Radha Agarwal
+  
 <a name="glossary"></a>
 
 ## Glossary
@@ -52,6 +59,7 @@ We are a passionate group of software engineers & designers from an innovation a
 - UI - User Interface
 - UX - User Experience
 - HM - Hiring manager
+- BFF - Backend for frontend
 
 <a name="prelude"></a>
 
@@ -94,7 +102,11 @@ Since the proposal is a platform, the platform could be composed of several arch
 
 The team went through a design thinking exercise to understand the Candidate, Employer and platform admin  profiles, and empathize their needs and pain points. We also created AI system golden path The following golden paths were considered:
 
-[Design artifacts](https://www.figma.com/design/ConOZKBKzm6d2zft0nG8Ly/Final?node-id=0-1&t=hmu76myBUZbJCPay-1)
+[Design artifacts Figma link](https://www.figma.com/design/ConOZKBKzm6d2zft0nG8Ly/Final?node-id=0-1&t=hmu76myBUZbJCPay-1)
+
+sample screens
+![Image](/assets/ui-screens1.png)
+![Image](/assets/ui-screens2.png)
 
 <a name="candidate-flow"></a>
 
@@ -155,19 +167,22 @@ For better navigation click [here](https://miro.com/app/board/uXjVLcJUnWk=/?move
 ### Quanta
 
 - [AI](/quanta/ai-quanta.md)
+- [User](./quanta/user-quanta.md)
+- [Matching](./)
 - [Invoice](./quanta/invoice-quanta.md)
 - [Notification](./quanta/notification-quanta.md)
 - [Integrations](./quanta/integration-quanta.md)
-- [User](./quanta/user-quanta.md)
-- TBD
+
+- [Survey](./)
+- [Analytics](./)
 
 <a name="other-services"></a>
 
 ### Other Services
 
-- [Infrastructure Services](TBD)
-- [Support](TBD)
-- [BFF](TBD)
+- Infrastructure Services
+- Support
+- BFF
 
 <a name="overall-architecture"></a>
 
