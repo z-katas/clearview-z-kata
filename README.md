@@ -1,9 +1,5 @@
 # O'reilly Architectural Katas - Fall 2024 - ClearView Platform
 
-## Update
-
-Thank you judges for the valuable feedback and the entire O'reilly team for organizing the event. It was a great learning experience just to be part of the event and looking at the perspectives of all the participating teams.
-
 ## Final Presentation
 
 TBD
@@ -11,7 +7,6 @@ TBD
 ## Table of Contents
 
 - [O'reilly Architectural Katas - Fall 2024 - ClearView Platform](#oreilly-architectural-katas---fall-2024---clearview-platform)
-  - [Update](#update)
   - [Final Presentation](#final-presentation)
   - [Table of Contents](#table-of-contents)
   - [About Team ArchZ](#about-team-archz)
