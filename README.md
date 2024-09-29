@@ -1,4 +1,4 @@
-# O'reilly Architectural Katas - Spring 2024 - ClearView Platform
+# O'reilly Architectural Katas - Fall 2024 - ClearView Platform
 
 ## Update
 
@@ -10,7 +10,7 @@ TBD
 
 ## Table of Contents
 
-- [O'reilly Architectural Katas - Spring 2024 - ClearView Platform](#oreilly-architectural-katas---spring-2024---clearview-platform)
+- [O'reilly Architectural Katas - Fall 2024 - ClearView Platform](#oreilly-architectural-katas---fall-2024---clearview-platform)
   - [Update](#update)
   - [Final Presentation](#final-presentation)
   - [Table of Contents](#table-of-contents)
