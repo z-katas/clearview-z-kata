@@ -24,7 +24,6 @@ TBD
     - [Candidate Golden Path](#candidate-golden-path)
     - [Employer Golden Path](#employer-golden-path)
     - [Platform Admin Golden Path](#platform-admin-golden-path)
-    - [AI System Golden Path](#ai-system-golden-path)
   - [Assumptions](#assumptions)
     - [Capacity planning](#capacity-planning)
     - [Security / Availability](#security--availability)
@@ -121,12 +120,6 @@ The team went through a design thinking exercise to understand the Candidate, Em
 ![Image](/assets/platform-admin-golden-path.png)
 
 <a name="AI-system-flow"></a>
-
-### AI System Golden Path
-
-![Image](/assets/ai-system-golden-path.png)
-
-https://www.loom.com/share/X
 
 <a name="assumptions"></a>
 
