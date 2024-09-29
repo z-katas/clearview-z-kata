@@ -151,6 +151,9 @@ The team went through a design thinking exercise to understand the Candidate, Em
 Quanta identification helps in defining different parts of the platform and the scope of architectural characteristics. We followed a mixture of event storming + actor-action approach to identify aggregates, components and quanta.
 
 [Click here for more details on the exercise.](/assets/aggregate-quanta.png)
+
+[Actor action event storming excercise](/assets/actor-action-event-storming.png)
+
 For better navigation click [here](https://miro.com/app/board/uXjVLcJUnWk=/?moveToWidget=3458764601506325349&cot=14)
 <a name="quanta"></a>
 
