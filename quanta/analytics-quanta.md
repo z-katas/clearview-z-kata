@@ -27,3 +27,8 @@
 ![Image](/assets/analytics-arch-style-worksheet.jpg)
 
 Hybrid - Event Driven + Microservices
+
+### Tradeoffs - Mitigation Strategies
+
+- Please refer to the [ADR-6](/ADR/006.adr-aggregation-metrics.md)
+- Please refer to the [ADR-7](/ADR/007.adr-analytics-engine.md)

@@ -61,5 +61,4 @@
 
 ### Trade-offs - Mitigation strategies
 
-- Please refer to this [ADR](/ADR/adr-user-profile-architecture-style.md)
-
+- Please refer to this [ADR](/ADR/001.adr-user-profile-architecture-style.md)

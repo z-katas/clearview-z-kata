@@ -13,6 +13,7 @@ Some of the requirements for the Integration:
 ### Components and Responsibilities
 
 - **Integration Service**:
+
   - Manages configurations for external HR systems to integrate with the platform.
   - Ease of usability for Platform admin to manage External HR Systems.
   - Ease of usability for Employer admins to manage their HR System.
@@ -28,7 +29,7 @@ Some of the requirements for the Integration:
 
 - **Configurability**: Integration of the platform with a new HR System should not warrant a redeployment of the entire quantum.
 - **Feasibility**: The architecture should support quick integration with a new HR System.
-- **Workflow**: Workflow is core to the  integration quantum to enable reliable ingestion into Clearview platform.
+- **Workflow**: Workflow is core to the integration quantum to enable reliable ingestion into Clearview platform.
 
 #### Other Driving Characteristics
 
@@ -36,10 +37,12 @@ Some of the requirements for the Integration:
 - **Testability**: Since this system needs to be highly configurable, a supporting framework should be bug-free.
 
 ### Architectural Style Preferred
+
 ![Image](/assets/integrations-arch-style-worksheet.png)
+
 - _Event-driven_ for enabling workflow in data ingestion into the clearview platform and pushing data to user profile APIs
-- _Microkernal_ for introducing new HR system integrations without affecting the existing ones.
+- _Micro kernel_ for introducing new HR system integrations without affecting the existing ones.
 
 ### Tradeoffs - Mitigation Strategies
 
-- Please refer to the [ADR](/ADR/adr-integrations-architecture-style.md)
+- Please refer to the [ADR](/ADR/005.adr-integrations-architecture-style.md)
