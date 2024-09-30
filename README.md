@@ -102,6 +102,8 @@ sample screens
 ![Image](/assets/ui-screens1.png)
 ![Image](/assets/ui-screens2.png)
 
+[All screens](/ui-designs/)
+
 <a name="candidate-flow"></a>
 
 ### Candidate Golden Path
