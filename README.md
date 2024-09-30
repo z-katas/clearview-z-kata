@@ -88,7 +88,7 @@ Since the proposal is a platform, the platform could be composed of several arch
 
 ![Image](/assets/context.png)
 
-[For better navigation on the content, use this miro frame](https://miro.com/app/board/uXjVLcJUnWk=/?moveToWidget=3458764600827974074&cot=14)
+[For better navigation on the content, use this miro frame](https://miro.com/app/board/uXjVLcJUnWk=/?moveToWidget=3458764600964960861&cot=14)
 
 <a name="user-experience"></a>
 
@@ -153,7 +153,7 @@ For better navigation click [here](https://miro.com/app/board/uXjVLcJUnWk=/?move
 ### Quanta
 
 - [AI](/quanta/ai-quanta.md)
-- [User](./quanta/user-quanta.md)
+- [User Profile](./quanta/user-profile-quanta.md)
 - [Matching](./quanta/matching-quanta.md)
 - [Invoice](./quanta/invoice-quanta.md)
 - [Notification](./quanta/notification-quanta.md)
