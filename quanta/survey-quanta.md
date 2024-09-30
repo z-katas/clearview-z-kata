@@ -1,4 +1,4 @@
-## Notification Quantum
+## Survey Quantum
 
 ![Image](/assets/C2_survey_quanta.jpg)
 
