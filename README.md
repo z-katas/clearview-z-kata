@@ -94,7 +94,7 @@ Since the proposal is a platform, the platform could be composed of several arch
 
 ## User experience
 
-The team went through a design thinking exercise to understand the Candidate, Employer and platform admin profiles, and empathize their needs and pain points. We also created AI system golden path The following golden paths were considered:
+The team went through a design thinking exercise to understand the Candidate, Employer and platform admin profiles, and empathize their needs and pain points. The following golden paths were considered:
 
 [Design artifacts Figma link](https://www.figma.com/design/ConOZKBKzm6d2zft0nG8Ly/Final?node-id=0-1&t=hmu76myBUZbJCPay-1)
 
