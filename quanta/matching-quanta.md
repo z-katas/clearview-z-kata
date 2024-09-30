@@ -28,8 +28,11 @@ Elasticity and Cost are also important characteristics for this quanta
 
 ### Architectural Style Preferred
 
+![Image](/assets/matching-arch-style-worksheet.jpg)
+
 Hybrid - Event Driven + Microservices
 
 During the MVP stage to save cost the components in this quanta could be built developed as modular monolith and then evolved over a period of time as the platform grows in size are revenue.
 
-![Image](/assets/matching-arch-style-worksheet.jpg)
+- Please refer to the [ADR-Link-1](/ADR/adr-matching-algorithm.md)
+- Please refer to the [ADR-Link-2](/ADR/adr-matching-quantum-arch-style.md)

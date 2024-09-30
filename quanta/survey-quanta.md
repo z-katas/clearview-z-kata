@@ -25,6 +25,6 @@
 
 ### Architectural Style Preferred
 
-Hybrid - Microservices + Event Driven
-
 ![Image](/assets/survey-arch-style-worksheet.jpg)
+
+Hybrid - Microservices + Event Driven

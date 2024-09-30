@@ -24,6 +24,6 @@
 
 ### Architectural Style Preferred
 
-Hybrid - Event Driven + Microservices
-
 ![Image](/assets/analytics-arch-style-worksheet.jpg)
+
+Hybrid - Event Driven + Microservices
