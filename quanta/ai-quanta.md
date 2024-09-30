@@ -7,12 +7,13 @@
 ### Components and Responsibilities
 
 - **Model Service**
-    - Serve as a facade to interact with external LLM models, handling API calls and model interaction efficiently.
-    - Manage request pre-processing and response post-processing, ensuring seamless integration of the external model with internal services.
+
+  - Serve as a facade to interact with external LLM models, handling API calls and model interaction efficiently.
+  - Manage request pre-processing and response post-processing, ensuring seamless integration of the external model with internal services.
 
 - **Vector service(Workflow)**
-    - Consume events from other services (like user actions or AI service requests) and trigger the creation of embeddings.
-    -   Generate and store embeddings for various operations such as candidate matching, resume processing, and bias detection.
+  - Consume events from other services (like user actions or AI service requests) and trigger the creation of embeddings.
+  - Generate and store embeddings for various operations such as candidate matching, resume processing, and bias detection.
 
 ---
 
@@ -45,4 +46,4 @@
 
 ### Tradeoffs - Mitigation Strategies
 
-- Please refer to the [ADR](/ADR/adr-ai-architecture-style.md)
+- Please refer to the [ADR](/ADR/002.adr-ai-architecture-style.md)

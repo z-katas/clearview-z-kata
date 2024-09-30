@@ -34,5 +34,7 @@ Hybrid - Event Driven + Microservices
 
 During the MVP stage to save cost the components in this quanta could be built developed as modular monolith and then evolved over a period of time as the platform grows in size are revenue.
 
-- Please refer to the [ADR-Link-1](/ADR/adr-matching-algorithm.md)
-- Please refer to the [ADR-Link-2](/ADR/adr-matching-quantum-arch-style.md)
+### Tradeoffs - Mitigation Strategies
+
+- Please refer to the [ADR-3](/ADR/003.adr-matching-algorithm.md)
+- Please refer to the [ADR-4](/ADR/004.adr-matching-quantum-arch-style.md)
