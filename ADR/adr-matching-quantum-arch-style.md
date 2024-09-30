@@ -17,10 +17,11 @@ We are developing Matching services to run matching algorithm and find the match
 ### PrOACT
 
 
-| Factor      | Modular Monolith | Event driven | Requirement |
-| ---------- | ----------- | ----------- | ---------- |
-| Cost(time+money)  | Low | High | Low
+| Factor | Modular Monolith | Event driven | Requirement |
+|  | ----------- | ----------- | ---------- |
+| Cost(time+money) | Low | High | Low
 | Abstraction | Low | High | High
+| Elasticity | Low        | High | High
 | Scalability | Low        | High | High
 | Performance | Medium | High | High
 

@@ -68,8 +68,8 @@ For effective monitoring and evaluation, the platform could track the following 
 - Choose Hybrid Approach.
   - Do real time metrics computation for few key events.
     - Eg : Job Posting is removed after selecting required candidates. This should trigger computation of Bias Reduction Metrics for that Job Posting.
-  - Do batched computation for periodic reports generation.
-  - Use side cars with read only data access to achieve this without impacting the core functionality.
+  - Do batched computation for periodic reports generations and to aggregate event specific metrics for the computation of platform level metrics.
+  - Use side cars with read only data access and a data warehouse to push required data to achieve this without impacting the core functionality.
 
 #### Metrics Selection
 
