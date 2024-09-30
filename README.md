@@ -42,12 +42,13 @@ TBD
 We are a passionate group of software engineers & designers from an innovation as a service organization [Zemoso](https://www.zemosolabs.com/).
 
 Team members
+
 - Saketh Kumar Kokonda
 - Avinash Marepalli
 - Srikanth Koraveni
 - Prasad G
 - Radha Agarwal
-  
+
 <a name="glossary"></a>
 
 ## Glossary
@@ -100,7 +101,7 @@ Since the proposal is a platform, the platform could be composed of several arch
 
 ## User experience
 
-The team went through a design thinking exercise to understand the Candidate, Employer and platform admin  profiles, and empathize their needs and pain points. We also created AI system golden path The following golden paths were considered:
+The team went through a design thinking exercise to understand the Candidate, Employer and platform admin profiles, and empathize their needs and pain points. We also created AI system golden path The following golden paths were considered:
 
 [Design artifacts Figma link](https://www.figma.com/design/ConOZKBKzm6d2zft0nG8Ly/Final?node-id=0-1&t=hmu76myBUZbJCPay-1)
 
@@ -157,7 +158,7 @@ sample screens
 
 Quanta identification helps in defining different parts of the platform and the scope of architectural characteristics. We followed a mixture of event storming + actor-action approach to identify aggregates, components and quanta.
 
-[Click here for more details on the exercise.](/assets/aggregate-quanta.png)
+[Click here for more details on the exercise.](/assets/aggregate-quanta.jpg)
 
 [Actor action event storming excercise](/assets/actor-action-event-storming.png)
 
@@ -168,13 +169,12 @@ For better navigation click [here](https://miro.com/app/board/uXjVLcJUnWk=/?move
 
 - [AI](/quanta/ai-quanta.md)
 - [User](./quanta/user-quanta.md)
-- [Matching](./)
+- [Matching](./quanta/matching-quanta.md)
 - [Invoice](./quanta/invoice-quanta.md)
 - [Notification](./quanta/notification-quanta.md)
 - [Integrations](./quanta/integration-quanta.md)
-
-- [Survey](./)
-- [Analytics](./)
+- [Survey](./quanta/survey-quanta.md)
+- [Analytics](./quanta/analytics-quanta.md)
 
 <a name="other-services"></a>
 
