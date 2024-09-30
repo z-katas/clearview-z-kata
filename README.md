@@ -1,13 +1,8 @@
 # O'reilly Architectural Katas - Fall 2024 - ClearView Platform
 
-## Final Presentation
-
-TBD
-
 ## Table of Contents
 
 - [O'reilly Architectural Katas - Fall 2024 - ClearView Platform](#oreilly-architectural-katas---fall-2024---clearview-platform)
-  - [Final Presentation](#final-presentation)
   - [Table of Contents](#table-of-contents)
   - [About Team ArchZ](#about-team-archz)
   - [Glossary](#glossary)
@@ -17,11 +12,9 @@ TBD
   - [Overall Platform Context](#overall-platform-context)
   - [User experience](#user-experience)
     - [Candidate Golden Path](#candidate-golden-path)
-    - [Employer Golden Path](#employer-golden-path)
+    - [Employer Hiring manager Golden Path](#employer-hiring-manager-golden-path)
+    - [Employer admin Golden Path](#employer-admin-golden-path)
     - [Platform Admin Golden Path](#platform-admin-golden-path)
-  - [Assumptions](#assumptions)
-    - [Capacity planning](#capacity-planning)
-    - [Security / Availability](#security--availability)
   - [User Roles](#user-roles)
   - [Identifying Architectural Quanta](#identifying-architectural-quanta)
     - [Quanta](#quanta)
@@ -32,8 +25,7 @@ TBD
   - [Platform Roadmap](#platform-roadmap)
     - [MVP](#mvp)
     - [Long Term](#long-term)
-  - [Engineering Practices](#engineering-practices)
-  - [References](#references)
+  - [Engineering Best Practices references](#engineering-best-practices-references)
 
 <a name="about-the-team"></a>
 
@@ -83,7 +75,8 @@ After the **[detailed analysis of business requirements](/business-requirements/
 - Security
 - Availability
 - Scalability
-- Usability
+- Configurabilty
+- Performance
 - Data Integrity
 - Extendability
 
@@ -113,33 +106,23 @@ sample screens
 
 ### Candidate Golden Path
 
-![Image](/assets/candidate-golden-path.png)
+![Image](/assets/golden-path-candidate.png)
 
 <a name="employer-flow"></a>
 
-### Employer Golden Path
+### Employer Hiring manager Golden Path
 
-![Image](/assets/employer-golden-path.png)
+![Image](/assets/golden-path-employer-hm.png)
+
+### Employer admin Golden Path
+
+![Image](/assets/golden-path-employer-admin.png)
 
 <a name="administrator-flow"></a>
 
 ### Platform Admin Golden Path
 
-![Image](/assets/platform-admin-golden-path.png)
-
-<a name="AI-system-flow"></a>
-
-<a name="assumptions"></a>
-
-## Assumptions
-
-### Capacity planning
-
-- TBD
-
-### Security / Availability
-
-- TBD
+![Image](/assets/golden-path-platform-admin.png)
 
 <a name="user-roles"></a>
 
@@ -212,22 +195,28 @@ The MVP is envisioned to bring out the unique value proposition of the platform 
 
 Areas to be addressed (In the order of priority):
 
-- TBD
+- User quanta
+- Resume tips, anonymisation
+- Resume matching and scoring
+- External HR integration (1 or 2 popular ones)
+- Admin analytics (No UI, just backend data)
 
 ### Long Term
 
 Areas to be addressed:
 
-- TBD
+- Survey
+- Admin Analytics
+- Configurable dashboards
+- Notifications
+- Configurable external HR systems
+- Admin UI analytics dashboards
 
 <a name="engineering-practices"></a>
 
-## Engineering Practices
+## Engineering Best Practices references
 
-- TBD
-
-<a name="resources"></a>
-
-## References
-
-- TBD
+- [Continuous Delivery](https://www.atlassian.com/continuous-delivery/principles/continuous-integration-vs-delivery-vs-deployment)
+- [Sidecar Pattern](https://dev.to/peterj/sidecar-container-pattern-314)
+- [Twelve Factor App](https://12factor.net/)
+- [Observability](https://cloud.ibm.com/docs/java?topic=cloud-native-observability-cn)
