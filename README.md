@@ -1,8 +1,17 @@
 # O'reilly Architectural Katas - Fall 2024 - ClearView Platform
 
+## Final Presentation
+[![](./assets/presentation.png)](https://www.loom.com/share/861dba6ac7da4ed286d002a76382671e)
+
+[Loom Link](https://www.loom.com/share/861dba6ac7da4ed286d002a76382671e)
+
+
+[Prezi Link](https://prezi.com/view/NpsRHehM6pAnU8YZl3wz/)
+
 ## Table of Contents
 
 - [O'reilly Architectural Katas - Fall 2024 - ClearView Platform](#oreilly-architectural-katas---fall-2024---clearview-platform)
+  - [Final Presentation](#final-presentation)
   - [Table of Contents](#table-of-contents)
   - [About Team ArchZ](#about-team-archz)
   - [Glossary](#glossary)
